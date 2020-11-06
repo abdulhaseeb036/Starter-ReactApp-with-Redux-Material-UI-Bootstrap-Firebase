@@ -3,8 +3,12 @@
 const INITIAL_STATE = {
         userdata: [
         {
-            name: "wasi",
+            name: "arain",
             email: "wasiarain@gmail.com"
+        },
+        {
+            name: "mani",
+            email: "mani@gmail.com"
         },
         {
             name: "bilal",
