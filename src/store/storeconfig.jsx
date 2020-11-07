@@ -1,7 +1,7 @@
-import reducer from './reducer/combinereducer'
+import reducer from './reducer/combinereducer';
+import {createStore, applyMiddleware} from 'redux';
+import thunk from 'redux-thunk'; //for functional work install this liabrary
 
-import {createStore} from 'redux'
-
-const store = createStore(reducer);
+const store = createStore(reducer, {}, applyMiddleware(thunk));
 
 export default store;
