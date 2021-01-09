@@ -32,7 +32,7 @@ class App extends React.Component {
     console.log(this.state.authdata.userdata[1].name);
   return (
     <div>
-      <h1>Starter React + Redux + MaterialUI + Bootstrap</h1>
+      <h1>Starter React + Redux + MaterialUI + Bootstrap + surge</h1>
       {/* <button onClick={this.getprintdata}>See All User</button> */}
       <h1>Auth Data</h1>
       <h3>{this.state.authdata.userdata[1].name}</h3>
