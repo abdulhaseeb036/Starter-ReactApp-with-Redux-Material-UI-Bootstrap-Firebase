@@ -38,7 +38,7 @@ jobs:
           cmd: install
       
       - name: creating build
-        run: npm build
+        run: npm run build
       
       
       - name: Installing surge
