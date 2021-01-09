@@ -32,10 +32,7 @@ jobs:
         with:
          version: 12
      #GITHUB NPM 
-      - name: npm/yarn/pnpm install
-        uses: Jaid/action-npm-install@v1.2.4
-        with:
-          cmd: install
+ 
       
       - name: creating build
         run: npm run build
