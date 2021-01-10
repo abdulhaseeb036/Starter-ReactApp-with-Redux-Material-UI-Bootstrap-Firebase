@@ -5,9 +5,11 @@ const INITIAL_STATE = {
     appowner: "haseeb alam rafiq"
 }
 
-export default (state = INITIAL_STATE, action) => {
+const  Appdata = (state = INITIAL_STATE, action) => {
     console.log(action)
     return (
         state
     )
 }
+
+export default Appdata
